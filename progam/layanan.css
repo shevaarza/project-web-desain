@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  
+  .hero {
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .hero h1 {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+  }
+  
+  /* Navbar style */
+  .navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .navbar .nav-link {
+    color: white !important;
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+  
+  .navbar-brand {
+    color: white !important;
+    font-size: 3rem;
+  }
+  
+  .navbar-toggler {
+    border-color: white;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23FFFFFF' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+  
+  .nav-btn {
+    background-color: #ff5722;
+    color: white;
+    border-radius: 20px;
+    padding: 0.5rem 1.5rem;
+  }
+  
+  .nav-btn:hover {
+    background-color: #e64a19;
+  }
+/* desain */
+.services-section h2 {
+    color: #6BBE45; /* Green color for the "Features Services" */
+  }
+
+  .service-card {
+    background-color: #fff;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  .service-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .service-icon {
+    width: 50px;
+  }
+
+  .service-link {
+    color: #6BBE45;
+    font-size: 1.5rem;
+    display: inline-block;
+    transition: color 0.3s;
+  }
+
+  .service-link:hover {
+    color: #1D8439;
+  }
+
+  footer h5 {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+  }
+
+  footer p {
+    margin-bottom: 10px;
+  }
+
+  .social-icons a {
+    font-size: 1.25rem;
+    margin-right: 10px;
+    transition: color 0.3s;
+  }
+
+  .social-icons a:hover {
+    color: #6BBE45;
+  }
+
+  footer .form-control {
+    border-radius: 30px;
+    padding: 0.75rem 1.25rem;
+  }
+/* footer */
+
+
+  
