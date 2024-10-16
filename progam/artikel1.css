@@ -220,3 +220,22 @@ body {
     border-radius: 30px;
     padding: 0.75rem 1.25rem;
   }
+
+  .footer-link {
+    text-decoration: none; /* Menghilangkan garis bawah pada link */
+    color: #ffffff; /* Warna link diatur menjadi putih (atau warna terang) */
+    transition: color 0.3s ease; /* Menambahkan transisi halus pada perubahan warna */
+}
+
+.footer-link:hover {
+    color: #ddd; /* Ubah warna saat link di-hover menjadi abu-abu terang */
+}
+
+.footer-link:active {
+    color: #bbb; /* Saat link diklik, warnanya akan sedikit lebih gelap */
+}
+
+.footer-link:focus {
+    outline: none; /* Menghilangkan outline saat link mendapat fokus */
+    color: #ddd; /* Warnanya tetap berubah saat fokus */
+}
