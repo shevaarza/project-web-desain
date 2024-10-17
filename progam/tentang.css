@@ -40,7 +40,7 @@ body {
   
   .navbar-brand {
     color: white !important;
-    font-size: 3rem;
+    font-size: 35px;
   }
   
   .navbar-toggler {
@@ -237,7 +237,6 @@ body {
 .service-link:hover {
   color: #1D8439;
 }
-
 footer h5 {
   font-size: 1.25rem;
   margin-bottom: 15px;
@@ -246,6 +245,17 @@ footer h5 {
 footer p {
   margin-bottom: 10px;
 }
+.text-footer{
+  text-decoration: none;
+}
+.footer-logo {
+  max-width: 330px; /* Atur ukuran maksimum logo */
+  height: auto;     /* Pastikan proporsi logo tetap */
+  margin-bottom: 20px; /* Ruang di bawah logo */
+  margin-left: -101px;
+  margin-top: -12px;
+}
+
 
 .social-icons a {
   font-size: 1.25rem;
@@ -260,4 +270,23 @@ footer p {
 footer .form-control {
   border-radius: 30px;
   padding: 0.75rem 1.25rem;
+}
+
+.footer-link {
+  text-decoration: none; /* Menghilangkan garis bawah pada link */
+  color: #ffffff; /* Warna link diatur menjadi putih (atau warna terang) */
+  transition: color 0.3s ease; /* Menambahkan transisi halus pada perubahan warna */
+}
+
+.footer-link:hover {
+  color: #ddd; /* Ubah warna saat link di-hover menjadi abu-abu terang */
+}
+
+.footer-link:active {
+  color: #bbb; /* Saat link diklik, warnanya akan sedikit lebih gelap */
+}
+
+.footer-link:focus {
+  outline: none; /* Menghilangkan outline saat link mendapat fokus */
+  color: #ddd; /* Warnanya tetap berubah saat fokus */
 }

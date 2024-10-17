@@ -40,7 +40,7 @@ body {
   
   .navbar-brand {
     color: white !important;
-    font-size: 3rem;
+    font-size: 35px;
   }
   
   .navbar-toggler {
@@ -187,7 +187,6 @@ body {
   .service-link:hover {
     color: #1D8439;
   }
-  
   footer h5 {
     font-size: 1.25rem;
     margin-bottom: 15px;
@@ -200,9 +199,11 @@ body {
     text-decoration: none;
   }
   .footer-logo {
-    max-width: 150px; /* Atur ukuran maksimum logo */
+    max-width: 330px; /* Atur ukuran maksimum logo */
     height: auto;     /* Pastikan proporsi logo tetap */
     margin-bottom: 20px; /* Ruang di bawah logo */
+    margin-left: -101px;
+    margin-top: -12px;
 }
 
   

@@ -40,7 +40,7 @@ body {
   
   .navbar-brand {
     color: white !important;
-    font-size: 3rem;
+    font-size: 35px;
   }
   
   .navbar-toggler {
@@ -109,6 +109,8 @@ body {
 
   .image-galleri {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 450px;
+    height: 280px;
   }
   
   
@@ -154,24 +156,131 @@ body {
     text-decoration: underline;
   }
   /*footer  */
-  footer {
-    background: linear-gradient(to right, #6a11cb, #2575fc); /* Gradiant Background */
-    color: #ffffff; /* White text color */
-    text-align: center;
-    padding: 20px 0;
-    position: relative; /* Allow for positioning of the footer */
+  .services-section h2 {
+    color: #6BBE45; /* Green color for the "Features Services" */
+  }
+  
+  .service-card {
+    background-color: #fff;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .service-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-icon {
+    width: 50px;
+  }
+  
+  .service-link {
+    color: #6BBE45;
+    font-size: 1.5rem;
+    display: inline-block;
+    transition: color 0.3s;
+  }
+  
+  .service-link:hover {
+    color: #1D8439;
+  }
+  footer h5 {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
   }
   
   footer p {
-    margin: 0; /* Remove default margin */
+    margin-bottom: 10px;
+  }
+  .text-footer{
+    text-decoration: none;
+  }
+  .footer-logo {
+    max-width: 330px; /* Atur ukuran maksimum logo */
+    height: auto;     /* Pastikan proporsi logo tetap */
+    margin-bottom: 20px; /* Ruang di bawah logo */
+    margin-left: -101px;
+    margin-top: -12px;
+}
+
+  
+  .social-icons a {
+    font-size: 1.25rem;
+    margin-right: 10px;
+    transition: color 0.3s;
   }
   
-  /* Responsive Styling */
-  @media (max-width: 768px) {
-    footer {
-      padding: 15px 0;
-    }
+  .social-icons a:hover {
+    color: #6BBE45;
   }
   
+  footer .form-control {
+    border-radius: 30px;
+    padding: 0.75rem 1.25rem;
+  }
+
+  .footer-link {
+    text-decoration: none; /* Menghilangkan garis bawah pada link */
+    color: #ffffff; /* Warna link diatur menjadi putih (atau warna terang) */
+    transition: color 0.3s ease; /* Menambahkan transisi halus pada perubahan warna */
+}
+
+.footer-link:hover {
+    color: #ddd; /* Ubah warna saat link di-hover menjadi abu-abu terang */
+}
+
+.footer-link:active {
+    color: #bbb; /* Saat link diklik, warnanya akan sedikit lebih gelap */
+}
+
+.footer-link:focus {
+    outline: none; /* Menghilangkan outline saat link mendapat fokus */
+    color: #ddd; /* Warnanya tetap berubah saat fokus */
+}
   
+.article-card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    margin: 15px;
+  }
   
+  .article-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .article-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .article-card-body {
+    padding: 20px;
+  }
+  
+  .article-card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .article-card-text {
+    font-size: 1rem;
+    color: #6c757d;
+  }
+  
+  .read-more {
+    margin-top: 5px;
+    display: inline-block;
+    color: #ff5722;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .read-more:hover {
+    color: #e64a19;
+  }
