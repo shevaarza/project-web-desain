@@ -1,0 +1,286 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  
+  .hero {
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .hero h1 {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+  }
+  
+  /* Navbar style */
+  .navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .navbar .nav-link {
+    color: white !important;
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+  
+  .navbar-brand {
+    color: white !important;
+    font-size: 35px;
+  }
+  
+  .navbar-toggler {
+    border-color: white;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23FFFFFF' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+  
+  .nav-btn {
+    background-color: #ff5722;
+    color: white;
+    border-radius: 20px;
+    padding: 0.5rem 1.5rem;
+  }
+  
+  .nav-btn:hover {
+    background-color: #e64a19;
+  }
+  
+/* galeri cari */
+
+#gallery {
+    background-color: #f8f9fa;
+  }
+
+  .card {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .card-img-top {
+    border-radius: 15px 15px 0 0;
+  }
+
+  #searchInput {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+  }
+
+  /* Style untuk pagination */
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .page-link {
+    cursor: pointer;
+  }
+
+  /* Tambahkan animasi fade untuk munculnya item galeri */
+  .gallery-item {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+  }
+  .gallery-item.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  /* pppppp */
+
+  .image-galleri {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 450px;
+    height: 280px;
+  }
+  
+  
+  .list-unstyled li i {
+    transition: color 0.3s ease;
+  }
+  
+  .list-unstyled li i:hover {
+    color: #007bff;
+  }
+
+  /* konren 2 */
+  .article-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #343a40;
+  }
+  
+  .article-content p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+  }
+  
+  blockquote {
+    font-size: 1.25rem;
+    border-left: 4px solid #007bff;
+    padding-left: 1rem;
+    color: #333;
+  }
+  
+  .article-sidebar h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .article-sidebar .list-unstyled li a {
+    font-size: 1.1rem;
+    color: #007bff;
+  }
+  
+  .article-sidebar .list-unstyled li a:hover {
+    text-decoration: underline;
+  }
+  /*footer  */
+  .services-section h2 {
+    color: #6BBE45; /* Green color for the "Features Services" */
+  }
+  
+  .service-card {
+    background-color: #fff;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .service-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-icon {
+    width: 50px;
+  }
+  
+  .service-link {
+    color: #6BBE45;
+    font-size: 1.5rem;
+    display: inline-block;
+    transition: color 0.3s;
+  }
+  
+  .service-link:hover {
+    color: #1D8439;
+  }
+  footer h5 {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+  }
+  
+  footer p {
+    margin-bottom: 10px;
+  }
+  .text-footer{
+    text-decoration: none;
+  }
+  .footer-logo {
+    max-width: 330px; /* Atur ukuran maksimum logo */
+    height: auto;     /* Pastikan proporsi logo tetap */
+    margin-bottom: 20px; /* Ruang di bawah logo */
+    margin-left: -101px;
+    margin-top: -12px;
+}
+
+  
+  .social-icons a {
+    font-size: 1.25rem;
+    margin-right: 10px;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #6BBE45;
+  }
+  
+  footer .form-control {
+    border-radius: 30px;
+    padding: 0.75rem 1.25rem;
+  }
+
+  .footer-link {
+    text-decoration: none; /* Menghilangkan garis bawah pada link */
+    color: #ffffff; /* Warna link diatur menjadi putih (atau warna terang) */
+    transition: color 0.3s ease; /* Menambahkan transisi halus pada perubahan warna */
+}
+
+.footer-link:hover {
+    color: #ddd; /* Ubah warna saat link di-hover menjadi abu-abu terang */
+}
+
+.footer-link:active {
+    color: #bbb; /* Saat link diklik, warnanya akan sedikit lebih gelap */
+}
+
+.footer-link:focus {
+    outline: none; /* Menghilangkan outline saat link mendapat fokus */
+    color: #ddd; /* Warnanya tetap berubah saat fokus */
+}
+  
+.article-card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    margin: 15px;
+  }
+  
+  .article-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .article-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .article-card-body {
+    padding: 20px;
+  }
+  
+  .article-card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .article-card-text {
+    font-size: 1rem;
+    color: #6c757d;
+  }
+  
+  .read-more {
+    margin-top: 5px;
+    display: inline-block;
+    color: #ff5722;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .read-more:hover {
+    color: #e64a19;
+  }
